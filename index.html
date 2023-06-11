@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário | Clientes</title>
+    <link rel="shortcut icon" href="meu_icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <form action="pagina_01.php" method="post" autocomplete="off">
+            <fieldset>
+                <legend><strong>Formulário de clientes</strong></legend>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="nome" id="inome" required class="inputuser">
+                    <label for="inome" class="inputlabel">Nome completo:</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="email" name="email" id="iemail" required  class="inputuser">
+                    <label for="iemail" class="inputlabel">E-Mail:</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="tel" name="telefone" id="itelefone" required  class="inputuser">
+                    <label for="itelefone"class="inputlabel">Telefone:</label>
+                </div>
+                <p>Sexo:</p>
+                <input type="radio" name="genero" id="ifeminino" value="feminino">
+                <label for="ifeminino">Feminino:</label>
+                <br>
+                <input type="radio" name="genero" id="imasculino" value="masculino">
+                <label for="imasculino">Masculino:</label>
+                <br>
+                <input type="radio" name="genero" id="ioutros" value="outros">
+                <label for="ioutros">Outros:</label>
+                <br><br>
+                    <label for="inascimento"><strong>Data de nascimento:</strong></label>
+                    <input type="date" name="nascimento" id="inascimento" required>
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" name="estado" id="iestado" required  class="inputuser">
+                    <label for="iestado" class="inputlabel">Estado:</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" name="cidade" id="icidade" required  class="inputuser">
+                    <label for="icidade" class="inputlabel">Cidade:</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" name="endereço" id="iendereço" required  class="inputuser">
+                    <label for="iendereço" class="inputlabel">Endereço:</label>
+                </div>
+                <br><br>
+                <input type="submit" value="Enviar" id="submit">
+
+
+                
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
